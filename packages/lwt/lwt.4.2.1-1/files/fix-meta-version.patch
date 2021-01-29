@@ -1,0 +1,40 @@
+From: https://github.com/fccm
+Date: Fri Jan 29 14:13:20 CET 2021
+Subject: version not set correctly
+
+diff -Naur lwt-4.2.1/lwt.opam lwt-4.2.1-1/lwt.opam
+--- lwt-4.2.1/lwt.opam	2019-04-02 12:03:00.000000000 +0200
++++ lwt-4.2.1-1/lwt.opam	2021-01-29 14:10:01.638505959 +0100
+@@ -2,7 +2,7 @@
+ 
+ synopsis: "Promises and event-driven I/O"
+ 
+-version: "dev"
++version: "4.2.1"
+ license: "MIT"
+ homepage: "https://github.com/ocsigen/lwt"
+ doc: "https://ocsigen.org/lwt/manual/"
+diff -Naur lwt-4.2.1/lwt_ppx.opam lwt-4.2.1-1/lwt_ppx.opam
+--- lwt-4.2.1/lwt_ppx.opam	2019-04-02 12:03:00.000000000 +0200
++++ lwt-4.2.1-1/lwt_ppx.opam	2021-01-29 14:10:06.757505520 +0100
+@@ -2,7 +2,7 @@
+ 
+ synopsis: "PPX syntax for Lwt, providing something similar to async/await from JavaScript"
+ 
+-version: "dev"
++version: "4.2.1"
+ license: "MIT"
+ homepage: "https://github.com/ocsigen/lwt"
+ doc: "https://ocsigen.org/lwt/api/Ppx_lwt"
+diff -Naur lwt-4.2.1/lwt_react.opam lwt-4.2.1-1/lwt_react.opam
+--- lwt-4.2.1/lwt_react.opam	2019-04-02 12:03:00.000000000 +0200
++++ lwt-4.2.1-1/lwt_react.opam	2021-01-29 14:10:12.339505040 +0100
+@@ -2,7 +2,7 @@
+ 
+ synopsis: "Helpers for using React with Lwt"
+ 
+-version: "dev"
++version: "4.2.1"
+ license: "MIT"
+ homepage: "https://github.com/ocsigen/lwt"
+ doc: "https://ocsigen.org/lwt/api/Lwt_react"
